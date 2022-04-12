@@ -183,7 +183,7 @@ for (let index = 1; index < numeroDeIteraciones; index++) {
 
 // Finalizadas las praticas 1
 
-console.log("hola");
+
 
 
 
