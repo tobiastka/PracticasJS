@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label >Grupo familiar</label>
+        <input type="number" id="cantidad-grupo-familiar">
+        <button type="button" id="boton-grupo-familiar">Finalizar</button>
+        <div>
+            <ul id="display-familiar">
+                
+            </ul>
+            <button type="button" style="display: none;" id="calcular">Calcular</button>
+            <button type="button" style="display: none;" id="resetear">Resetear</button>
+            <ul id="display-familiar-resultados" style="display: none;">
+                <li>
+                    <label >La mayor edad es: </label>
+                    <input type="number" disabled id="mayor-edad">
+                </li>
+                <li>
+                    <label >La menor edad es: </label>
+                    <input type="number" disabled id="menor-edad">
+                </li>
+                <li>
+                    <label >La edad edad promedio es: </label>
+                    <input type="number" disabled id="edad-promedio">
+                </li>
+                
+            </ul>
+        
+        </div>
+    </form>
+
+
+    <script src="t6.js"></script>
+</body>
+</html>
